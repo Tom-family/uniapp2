@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const service = axios.create({
-  baseURL: 'http://192.168.1.13:7070',
+  baseURL: '',
   timeout: 10000,
 });
 
@@ -11,7 +11,7 @@ service.interceptors.request.use(
     if (token) {
       config.headers['Authorization'] = `Bearer ${token}`;
     }
-    return config;
+    return config; 
   },
   error => {
     return Promise.reject(error);
