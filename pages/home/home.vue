@@ -3,7 +3,7 @@
     <text>{{ count }}</text>
     <button @click="add">Increment</button>
     <button @click="incrementAsync">Increment Async</button>
-    <tabbar :tabbarIndex="1"></tabbar>
+    <!-- <tabbar :tabbarIndex="1"></tabbar> -->
   </view>
 </template>
 

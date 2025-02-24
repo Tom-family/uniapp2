@@ -2,10 +2,10 @@
 <script>
 	export default {
 		onLaunch: function() {
-			uni.hideTabBar()
+			// uni.hideTabBar()
 		},
 		onShow: function() {
-			uni.hideTabBar()
+			// uni.hideTabBar()
 		},
 		onHide: function() {},
 	}

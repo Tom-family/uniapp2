@@ -1,7 +1,7 @@
 <template>
 	<view class="content">
 		我的
-		<tabbar :tabbarIndex="3"></tabbar>
+		<!-- <tabbar :tabbarIndex="3"></tabbar> -->
 	</view>
 </template>
 
